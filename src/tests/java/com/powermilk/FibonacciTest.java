@@ -51,7 +51,7 @@ class FibonacciTest {
     @DisplayName("Calculate should return 1 (1 as input)")
     void shouldPassCalculatingForOneAsInput() {
         BigInteger expected = BigInteger.ONE;
-        BigInteger actual = Fibonacci.calculateFibonacciNumber(1);
+        BigInteger actual = Fibonacci.calculateFibonacciNumber(10);
         assertEquals(expected, actual);
         log.info("Test for calculate for 1 as input passed!");
     }

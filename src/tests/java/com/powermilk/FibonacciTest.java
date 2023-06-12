@@ -23,12 +23,12 @@ class FibonacciTest {
 
     @BeforeEach
     void init() {
-        log.info("Test dimulai!");
+        log.info("Test Started!");
     }
 
     @AfterEach
     void tearDown() {
-        log.info("Test selesai!");
+        log.info("Test Finihsed!");
     }
 
     @Test
